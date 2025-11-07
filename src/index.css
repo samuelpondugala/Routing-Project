@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+h1{
+    font-size: 100px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-decoration: underline;
+    font-weight: 600;
+    white-space: nowrap;
+    text-transform: capitalize;
+    
+}
+p{
+    position: absolute;
+    top:60%;
+    left:50%;
+    color: red;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-weight: bolder;
+}
+/* h3{
+    font-size: 50px;
+    display: inline;
+    text-decoration: underline;
+    font-weight: 600;
+    margin: 10px;
+} */
